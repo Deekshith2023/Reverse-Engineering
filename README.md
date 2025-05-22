@@ -6,7 +6,7 @@ In this Section i will be walking through some Code Analysis by using GHIDRA too
 
 crackme0X00
 
- ![Image Alt]()
+ ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/c094f50fe27d4532e4dcd6798b7ea4fbab5e93eb/ScreenShots/crackme0x00%20pic-1.png)
 
 So, from the above screen shot Navigate to Main function from Symbol Tree and select main function by double clicking it, post that Main function can be seen left side.
 
