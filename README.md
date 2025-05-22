@@ -8,7 +8,13 @@ crackme0X00
 
  ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/e6c593d2191d183977cf5df7b3ea6ab05fedad22/screenshots/Crackme0x00%20pic-1.png)
 
+So, from the above screen shot Navigate to Main function from Symbol Tree and select main function by double clicking it, post that Main function can be seen left side.
 
+EXPLANATION
+
+* we can see that it is very straight Password validation check. I have renamed some variable to my needs for my Better understanding.
+* The program takes some input from the User using Strcmp function it checks for the stored password i.e, 250382 and validates it.
+* The file is in ELF (Executable and Linkable Format) which can be run in Linux OS or WSL (Windows Subsystem for linux) if it can be installed in Windows OS you can run through CMD directly.
 
 
 
