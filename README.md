@@ -6,7 +6,7 @@ In this Section i will be walking through some Code Analysis by using GHIDRA too
 
 crackme0X00
 
- ![Image Alt](image_url)
+ ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/e6c593d2191d183977cf5df7b3ea6ab05fedad22/screenshots/Crackme0x00%20pic-1.png)
 
 
 
