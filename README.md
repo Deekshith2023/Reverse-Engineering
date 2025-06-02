@@ -26,6 +26,7 @@ Challenge 3: crackme0x02
 This challenge is almost same to previous challenge password is in Hexadecimal format 0x52b24 after converting them the password will be 338724.
 
 Challenge 4: crackme0x03
+ ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/main/ScreenShots/crackme03.png?raw=true)
 This challenge is a bit tricky after analsying the main function we can see that there is a “test” function. The test function reveals that the output after running the input from user is encrypted.
 But if we observe closely the output stored it is using Ceaser cipher (Shift Cipher). So basically after shifting the value most likely -3 for decryption of the encrypted output we can see the original output. The Password after converting from hexadecimal to decimal is 338724.
   
