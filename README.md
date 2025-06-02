@@ -38,6 +38,9 @@ After analysing the main function, Check function was present. It is checking th
 This logic is implemented in order to build the complexity of the program and to waste their time who so ever is Reverse Engineering it.
 
 Challenge 6: crackme0x05
+
+
+ ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/main/ScreenShots/crackme0x06.png?raw=true )
 As pervious challenge 5 logic on check function is slight different that the result should be sum of 16 when it matches 16 then it is time to call the Parallel function. 
 In the parallel function, it checks the sum of the input plus 1 is giving 0 (zero) if it satisfies the condition it prints “Password ok” status else it will escape and prints “Password incorrect”.
 Example for “Password ok” : 4,4,8 
