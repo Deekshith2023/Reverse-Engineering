@@ -20,8 +20,24 @@ Challenge-2: crackme0x01
  ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/main/ScreenShots/crackme01.png?raw=true)
  For this challenge if we can see above it is almost the same as the 1st Challenge one but the password is in Hexadecimal format after converting that the password will be “5274” from 0x149a. It is simple challenge.
 
+Challenge 3: crackme0x02
+ ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/main/ScreenShots/crackme02.png?raw=true)
 
+This challenge is almost same to previous challenge password is in Hexadecimal format 0x52b24 after converting them the password will be 338724.
 
+Challenge 4: crackme0x03
+This challenge is a bit tricky after analsying the main function we can see that there is a “test” function. The test function reveals that the output after running the input from user is encrypted.
+But if we observe closely the output stored it is using Ceaser cipher (Shift Cipher). So basically after shifting the value most likely -3 for decryption of the encrypted output we can see the original output. The Password after converting from hexadecimal to decimal is 338724.
+  
+Challenge 5: crackme0x04
+
+After loading the main function, we can see that Check function is present. It is checking the input of users. Inside the check function there is a logic built where my input should be in total of 15. For example, to achieve 15 in total 8+7=15 or 6+9=15. In general, Input should be 2 number which should indirectly points to 15 after adding that 2 numbers.
+This logic is implemented in order to build the complexity of the program and to waste their time who so ever is Reverse Engineering it.
+
+Challenge 6: crackme0x05
+As pervious challenge 5 logic on check function is slight different that the result should be sum of 16 when it matches 16 then it is time to call the Parallel function. 
+In the parallel function, it checks the sum of the input plus 1 is giving 0 (zero) if it satisfies the condition it prints “Password ok” status else it will escape and prints “Password incorrect”.
+Example for “Password ok” : 4,4,8 
 
 
 
