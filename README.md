@@ -32,7 +32,9 @@ But if we observe closely the output stored it is using Ceaser cipher (Shift Cip
   
 Challenge 5: crackme0x04
 
-After loading the main function, we can see that Check function is present. It is checking the input of users. Inside the check function there is a logic built where my input should be in total of 15. For example, to achieve 15 in total 8+7=15 or 6+9=15. In general, Input should be 2 number which should indirectly points to 15 after adding that 2 numbers.
+
+ ![Image Alt](https://github.com/Deekshith2023/Reverse-Engineering/blob/main/ScreenShots/crackme0x05.png?raw=true)
+After analysing the main function, Check function was present. It is checking the input of users. Inside the check function there is a logic built where my input should be in total of 15. For example, to achieve 15 in total 8+7=15 or 6+9=15. In general, Input should be 2 number which should indirectly points to 15 after adding that 2 numbers.
 This logic is implemented in order to build the complexity of the program and to waste their time who so ever is Reverse Engineering it.
 
 Challenge 6: crackme0x05
